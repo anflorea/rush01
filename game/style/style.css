@@ -1,0 +1,58 @@
+body
+{
+    background-color: black;
+}
+
+#tile
+{
+    position: absolute;
+    width: 1351px;
+    height: 901px;
+    background-image: url("../assets/tile.png");
+}
+
+.ship
+{
+    position: absolute;
+    z-index: 2;
+}
+
+#panel
+{
+    margin-right: 10px;
+    width: 300px;
+    float: right;
+}
+
+.submit {
+    background-color: #62599c;
+    border-radius:3px;
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    text-decoration: none;
+    border:none;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.submit:hover {
+    transition: 0.2s;
+    border: none;
+    background:red;
+}
+
+#hpbar
+{
+    position: absolute;
+    height: 4px;
+    background-color: lime;
+}
+
+#info
+{
+    font-family: "Helvetica";
+    font-size: 26px;
+    color: white;
+}

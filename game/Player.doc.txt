@@ -1,0 +1,14 @@
+The Player class handles player creation.
+
+The following methods are available:
+
+public function __construct($pid)
+public function fire()
+public function addShip($ship)
+public function damageShip($ship)
+public function moveShip($distance)
+public function addSpeed($pp)
+public function addWeapon($pp)
+public function addShield($pp)
+public function printShips($turn, $active)
+public function getShips()

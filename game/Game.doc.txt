@@ -1,0 +1,14 @@
+The game class handles game instances:
+
+The following methods are available:
+    public function moveShip($dist)
+    public function printAllShips()
+    public function getPhase()
+    public function getPlayer()
+    public function activate($active)
+    public function addSpeed($pp)
+    public function addShield($pp)
+    public function addWeapon($pp)
+    public function skip()
+    public function getCollision()
+   

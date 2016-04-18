@@ -1,0 +1,2 @@
+The fire trait handles collision detection:
+    function fire($colliders)

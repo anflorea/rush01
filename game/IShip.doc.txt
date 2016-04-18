@@ -1,0 +1,3 @@
+This interface defines the following function for the Ship class
+
+     public function printShip($turn, $active, $id, $rev);

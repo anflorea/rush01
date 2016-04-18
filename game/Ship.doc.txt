@@ -1,0 +1,18 @@
+The ship class handles ship creation.
+
+The following methods are available:    
+
+    public function printShip($turn, $active, $id, $rev)    
+    public function reduceProjectiles()
+    public function addSpeed($pp)
+    public function addShield($pp)
+    public function addWeapon($pp)
+    public function damage($hp)
+    public function move($dist, $rev)
+    public function getImage()
+    public function getWidth()
+    public function getHeight()
+    public function getX()
+    public function getY()
+    public function getHp()
+    public function __toString()
